@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# KDG 書籍管理システムフロントエンド
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+KDG の授業で使用するフロントエンドです。
 
 ## Setup
 
