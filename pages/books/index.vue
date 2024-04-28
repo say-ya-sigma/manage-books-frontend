@@ -1,32 +1,12 @@
 <template>
   <div class="container mx-auto px-4 py-8">
     <h1 class="text-2xl font-bold">書籍一覧</h1>
-    <table class="table-auto w-full mt-4">
-      <thead>
-        <tr class="bg-gray-200">
-          <th class="px-4 py-2 text-left">タイトル</th>
-          <th class="px-4 py-2 text-left">著者</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="book in books" :key="book.id" class="border-b">
-          <td class="px-4 py-2">{{ book.title }}</td>
-          <td class="px-4 py-2">{{ book.author }}</td>
-          <td class="px-4 py-2 text-right">
-            <nuxt-link
-              :to="`/books/${book.id}`"
-              class="text-blue-600 hover:text-blue-800"
-              >詳細を見る</nuxt-link
-            >
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <BooksTable :books="books" />
   </div>
 </template>
 
 <script setup>
+import BooksTable from "./feature/BooksTable.vue";
 const books = [
   { id: 1, title: "書籍1", author: "著者1" },
   { id: 2, title: "書籍2", author: "著者2" },
