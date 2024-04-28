@@ -27,10 +27,10 @@
               <nuxt-link to="/books" class="block">書籍一覧</nuxt-link>
             </li>
             <li class="py-2 px-4 hover:bg-green-400 hover:text-gray-900">
-              <nuxt-link to="/authors" class="block">著者一覧</nuxt-link>
+              <nuxt-link to="/" class="block">著者一覧</nuxt-link>
             </li>
             <li class="py-2 px-4 hover:bg-green-400 hover:text-gray-900">
-              <nuxt-link to="/categories" class="block">カテゴリ一覧</nuxt-link>
+              <nuxt-link to="/" class="block">カテゴリ一覧</nuxt-link>
             </li>
           </ul>
         </nav>
