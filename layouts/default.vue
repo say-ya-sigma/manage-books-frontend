@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col h-screen">
     <!-- Header -->
-    <header class="bg-green-800 shadow">
-      <div class="px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
-        <h1 class="text-3xl font-bold text-gray-100">書籍管理システム</h1>
+    <header class="bg-green-900 shadow">
+      <div class="px-4 py-2 sm:px-6 lg:px-8 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-gray-100">書籍管理システム</h1>
         <div class="relative">
           <img
             class="h-10 w-10 rounded-full"
